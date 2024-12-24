@@ -1,0 +1,15 @@
+{
+    "vpc_name": "demo",
+    "vpc_cidr": "192.168.0.0/16",
+    "subnets_configuration": [
+        {
+            "name": "demo",
+            "cidr": "192.168.0.0/20"
+        }
+    ],
+    "security_group_name": "demo",
+    "name": 4,
+    "flavor": "gaussdb.mysql.large.x86.4",
+    "master_availability_zone": "cn-north-4a",
+    "availability_zone_mode": "multi"
+}
